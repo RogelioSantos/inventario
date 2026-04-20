@@ -1,12 +1,12 @@
-package mx.uv.mapl.inventario;
+package mx.uv.roge.inventario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.boot.CommandLineRunner;
 
-import mx.uv.mapl.inventario.entity.Producto;
-import mx.uv.mapl.inventario.repository.ProductoRepository;
+import mx.uv.roge.inventario.entity.Producto;
+import mx.uv.roge.inventario.repository.ProductoRepository;
 
 @SpringBootApplication
 public class InventarioApplication {

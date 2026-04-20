@@ -1,12 +1,12 @@
-package mx.uv.mapl.inventario.service;
+package mx.uv.roge.inventario.service;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
-import mx.uv.mapl.inventario.entity.Producto;
-import mx.uv.mapl.inventario.repository.ProductoRepository;
+import mx.uv.roge.inventario.entity.Producto;
+import mx.uv.roge.inventario.repository.ProductoRepository;
 
 @Service 
 @RequiredArgsConstructor

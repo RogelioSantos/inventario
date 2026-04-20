@@ -1,4 +1,4 @@
-package mx.uv.mapl.inventario.entity;
+package mx.uv.roge.inventario.entity;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;

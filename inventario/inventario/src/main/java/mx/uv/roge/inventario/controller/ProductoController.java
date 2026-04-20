@@ -1,11 +1,11 @@
-package mx.uv.mapl.inventario.controller;
+package mx.uv.roge.inventario.controller;
 import java.util.List;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import lombok.RequiredArgsConstructor;
-import mx.uv.mapl.inventario.entity.Producto;
-import mx.uv.mapl.inventario.service.ProductoService;
+import mx.uv.roge.inventario.entity.Producto;
+import mx.uv.roge.inventario.service.ProductoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
