@@ -2,6 +2,7 @@
 FROM gradle:8.10-jdk23 AS build
 WORKDIR /app
 COPY inventario/inventario .
+RUN chmod +x ./gradlew
 RUN ./gradlew build -x test --no-daemon
 
 # Etapa 2: Imagen ligera de runtime (producción)
